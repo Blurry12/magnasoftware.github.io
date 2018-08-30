@@ -1,0 +1,84 @@
+ul {
+    list-style-type: none;
+    margin: -20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    padding-top: 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+h1{
+    float: left;
+    color: white;
+    margin-left: 10px;
+}
+html{
+    background-color: coral;
+}
+body{
+    background-color: cornflowerblue;
+    margin: 20px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+    
+}
+header{
+    margin-top: -50px;
+}
+h2{
+    margin-left: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+img{
+    margin-left: 20px;
+}
+h3{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+button{
+    padding: 16px 20px;
+    background-color: #333;
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.download{
+    margin-left: 20px;
+    color: white;
+    padding: 14px 20px;
+    background-color: #333;
+}
+.download:active{
+    color: purple;
+}
+.releases{
+    display: block;
+    background-color: lightgrey;
+    float: left;
+    margin-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    cursor: pointer;
+        
+}
